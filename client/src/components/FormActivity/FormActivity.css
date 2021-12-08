@@ -1,0 +1,109 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url('../../assets/mapa.jpeg');
+}
+
+.btnBack{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 2px 5px;
+    width: 90px;
+    height: 28px;
+    text-align: center;
+/*     border: 1px solid rgba(0, 0, 0, 0.322); */
+    border-radius: 4px;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.322);
+    margin: 50px;
+    transition: all .5s;
+}
+
+.btnBack:hover{
+    background-color: #007BFF;
+    color: #fff;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+}
+
+.containerFormulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerFormulario h2{ 
+    width: 325px; 
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 9px;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+
+.formulario{
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   /* border: 1px solid black; */
+   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+   background: rgba(30, 188, 250, 0.25);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+}
+
+.lbl{
+    display: block;
+    margin: 3px;
+}
+
+.lista{
+    list-style: none;
+}
+
+.duracion{
+    display: flex;
+    flex-direction: column;
+}
+
+.selectForm{
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.checkbox{
+    margin-bottom: 20px;
+}
+
+.btnSubmit{
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 10px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+/*     border: 1px solid rgba(0, 0, 0, 0.322); */
+    border: none;
+    border-radius: 4px;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.322);
+    cursor: pointer;
+    margin: 0 auto;
+   
+}
+

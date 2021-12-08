@@ -1,0 +1,21 @@
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    background-color: #FFFFFF; 
+    color: #202020;
+    margin: 10px 0;
+    transition: ease-in-out .5s;
+}
+
+.card:hover{
+    background-color: #ebebeb; 
+}
+
+.card h3,.card h5{
+    width: 100%;
+}

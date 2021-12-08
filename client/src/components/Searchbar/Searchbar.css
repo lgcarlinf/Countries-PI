@@ -1,0 +1,17 @@
+.Searchbar{
+display: flex;
+}
+
+.textSearch{
+    padding: 6px;
+
+}
+
+.butonSearch{
+   display: block;
+    padding: 6px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

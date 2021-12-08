@@ -1,0 +1,61 @@
+.init{
+    background-color: #FAFAFA;
+    color: #fff;
+}
+
+.containerCards{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    background-color:  #FAFAFA;
+   
+}
+
+.text{
+    text-decoration: none;
+    text-align: center;
+}
+
+.text h3::first-letter{
+    text-transform: uppercase;
+}
+
+.filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select{
+    margin-bottom: 50px;
+    display: block;
+    padding: 6px;
+}
+
+.option{
+    display: flex;
+    padding: 20px;
+}
+
+.create{
+   
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 3px 10px;
+        width: 120px;
+        height: 28px;
+        text-align: center;
+        /* border: 1px solid rgba(0, 0, 0, 0.322); */
+        border-radius: 4px;
+        box-shadow : 0 0 10px rgba(0, 0, 0, 0.322);
+    
+}
+
+.create:hover{
+    background-color: #007BFF;
+    color: #fff;
+}

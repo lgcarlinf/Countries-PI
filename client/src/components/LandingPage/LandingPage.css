@@ -1,0 +1,43 @@
+.containerLanding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    
+}
+
+.containerLanding h1{
+    color: white;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+
+
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+.link:hover{
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    
+    z-index: 99;
+}
