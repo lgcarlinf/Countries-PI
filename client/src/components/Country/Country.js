@@ -20,7 +20,7 @@ export const Country = (props) => {
     return (
         <div className="containerDetails">
           
-            <Link className="text-button" to='/countries'><i class="fas fa-arrow-left"></i>Atras</Link>
+            <Link className="text-button" to='/countries'><i className="fas fa-arrow-left"></i>Atras</Link>
          
            <div className='detailsCountry'>
                <div className='image'>
