@@ -15,7 +15,7 @@ export const Country = (props) => {
 
     const myCountry = useSelector(state => state.details)
    
-     const {country,activity} = myCountry 
+     const {country} = myCountry 
   
     return (
         <div className="containerDetails">
