@@ -25,7 +25,7 @@ router.post('/', async(req,res)=>{
             duracion,
             temporada
         });
-         createActivity.setCountries(countries); 
+        await createActivity.setCountries(countries); 
        /*  console.log(req.body) */
         res.json({msg:'se creo exitosamente'});
     } catch (error) {
