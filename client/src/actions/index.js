@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function getCountries(){
     return async function(dispatch){
-        var json = await axios ('http://localhost:3001/countries')
+        var json = await axios(`/countries`)
         return dispatch({
             type: "GET_COUNTRIES",
             payload: json.data
@@ -48,7 +48,7 @@ export function getNameCountries(payload){
 
 export function getActivities(){
     return async function(dispatch){
-        var request = await axios ('http://localhost:3001/activity')
+        var request = await axios ('/activity')
         return dispatch({
             type: 'GET_ACTIVITIES',
             payload: request.data
@@ -59,7 +59,7 @@ export function getActivities(){
 
 export function postActivities(payload){
     return async function (dispatch){
-        const response = await axios.post('http://localhost:3001/activity', payload)
+        const response = await axios.post('/activity', payload)
         console.log(response )
         return response
     } 
@@ -68,7 +68,7 @@ export function postActivities(payload){
 export function getDetails(payload){
     return async function (dispatch){
         try {
-            const json  = await axios.get('http://localhost:3001/countries/'+payload)
+            const json  = await axios.get('/countries/'+payload)
             return dispatch({
                 type:'GET_DETAILS',
                 payload: json.data
