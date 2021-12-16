@@ -10,7 +10,7 @@ import axios from 'axios';
 dotenv.config();
 /*     hola */
 axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001';
-process.env.REACT_APP_CI = true
+process.env.REACT_APP_CI = 'npm run build'
 
 ReactDOM.render(
   <Provider store={store}>
