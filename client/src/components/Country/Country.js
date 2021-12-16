@@ -14,7 +14,7 @@ export const Country = (props) => {
     },[])
 
     const myCountry = useSelector(state => state.details)
-    console.log(myCountry)
+   
      const {country,activity} = myCountry 
   
     return (

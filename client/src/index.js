@@ -12,7 +12,7 @@ dotenv.config();
 
 let api = process.env.REACT_APP_API ;
 axios.defaults.baseURL = api;
-console.log(api);
+
 
 process.env.REACT_APP_CI = "npm run build";
 
