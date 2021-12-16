@@ -9,7 +9,8 @@ import dotenv from "dotenv";
 import axios from "axios";
 dotenv.config();
 /*     hola */
-let api = process.env.REACT_APP_API || "http://localhost:3001";
+
+let api = process.env.REACT_APP_API || process.env.LOCAL_API;
 axios.defaults.baseURL = api;
 console.log(api);
 
