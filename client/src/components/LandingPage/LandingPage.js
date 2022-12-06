@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
-import video from "../../assets/Time and Again   15 Countries In 4 Minutes 2014 Time Lapse online video cutter com.mp4";
+import video from "https://countries-g56m8unth-lgcarlinf.vercel.app/";
 import { Loading } from "../Loading/Loading";
 
 export const LandingPage = () => {
