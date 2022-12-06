@@ -1,15 +1,15 @@
-import React from 'react'
-import './Loading.css'
+import React from "react";
+import "./Loading.css";
 
 export const Loading = () => {
-    return (
-        <div className="gooey">
-            <span className="dot"></span>
-            <div className="dots" >
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="sk-chase">
+      <div className="sk-chase-dot"></div>
+      <div className="sk-chase-dot"></div>
+      <div className="sk-chase-dot"></div>
+      <div className="sk-chase-dot"></div>
+      <div className="sk-chase-dot"></div>
+      <div className="sk-chase-dot"></div>
+    </div>
+  );
+};
